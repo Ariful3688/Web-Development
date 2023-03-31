@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            background-color: aquamarine;
+            height: 600px;
+            display: flex;
+            /* for flex row ar jonno(justify-content: left,right,center;)  */
+            /* for column-rule ar jonno (align-items: left,right,center;) */
+            justify-content: space-between;
+            text-align: center;
+            /* we can also use here (gap: 20px;) */
+        }
+        .div1{
+            background-color: rgb(33, 33, 218);
+            height: 150px;
+            flex-grow: 0.2;
+        }
+        .div2{
+            background-color: rgb(120, 18, 216);
+            height: 150px;
+            flex-grow: 0.2;
+        }
+           
+        .div3{
+            background-color: rgb(230, 19, 82);
+            height: 150px;
+            flex-grow: 0.6;
+        }
+    </style>
+</head>
+<body>
+    <!-- .container + enter we will find {<div class="container"></div>} -->
+   <div class="container">
+    <!-- div.div dila class ar div#div dila id asa  -->
+    <div class="div1">
+        <h1>ak</h1>
+    </div>
+
+    <div class="div2">
+        <h1>bk</h1>
+    </div>
+    <div class="div3">
+        <h1>ck</h1>
+    </div>
+   </div> 
+   
+</body>
+</html>

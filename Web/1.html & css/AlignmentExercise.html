@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+
+<style>
+    .div1,.div2,.div3{
+        background-color: antiquewhite;
+        margin-bottom: 20px;
+        height: 300px;
+        text-align: center;
+        /* inline element k position korar jonno text-align: center; */
+    }
+
+    .inner-div{
+        width: 50%;
+        background-color: aquamarine;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        /* jodi block position tik korta hoy tahole  margin-left: auto; margin-right: auto; */
+    }
+
+    .inline-div{
+        display: inline-block;
+        text-align: center;
+        background-color: cadetblue;
+    }
+
+    .div3{
+        text-align: center;
+        /* inline position tik korar smy parent class dorta hoy */
+    }
+
+</style>
+
+<body>
+
+    <div class="div1">
+        <button>Click Me</button>
+         <button>Click Me</button>
+          <button>Click Me</button>
+    </div>
+
+    <div class="div2">
+       <div class="inner-div">
+        <h1>This is inner div</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima tempora natus maxime cum magnam consequatur quaerat aliquid non quidem aliquam corporis rerum, omnis officia quasi autem, voluptates veritatis dicta, neque odit sit ratione sint voluptatibus maiores! Magni impedit numquam provident!</p>
+       </div>
+    </div>
+
+    <div class="div3">
+        <div class="inline-div">
+            <h1>This is an inline-block div</h1>
+          <h2>Align this div in center</h2>
+        </div>
+    </div>
+    
+</body>
+</html>

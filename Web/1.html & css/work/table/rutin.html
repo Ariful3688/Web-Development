@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,th,td{
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 8px;
+        }
+
+        .row-lunch{
+            font-weight: 600;
+        }
+        .center{
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+        }
+    </style>
+
+</head>
+<body>
+   <table class="center">
+    <caption>
+        class Rutin
+    </caption>
+    <thead>
+        <tr>
+            <!-- th*8 -->
+            <th>DAY</th>
+            <th>1</th>
+            <th>2</th>
+            <th>3</th>
+            <th>4</th>
+            <th>5</th>
+            <th>6</th>
+            <th>7</th>
+            <th>8</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <!-- td*7 -->
+            <td>Monday</td>
+            <td>Eng</td>
+            <td>Mat</td>
+            <td>Che</td>
+            <td rowspan="4" class="row-lunch">Lanch</td>
+            <td colspan="3">Lab</td>
+            <td>Phy</td>
+        </tr>
+        <tr>
+            <!-- td*7 -->
+            <td>Tuesday</td>
+            <td colspan="3">Lab</td>
+            <td>Eng</td>
+            <td>Che</td>
+            <!-- <td rowspan="6">Lanch</td> ak bar likla ar laga na -->
+            <td>Mat</td>
+            <td>Sports</td>
+        </tr>
+        <tr>
+            <!-- td*7 -->
+            <td>Wednesday</td>
+            <td>Eng</td>
+            <td>Mat</td>
+            <td>Che</td>
+            
+            <td colspan="3">Lab</td>
+            <td>Phy</td>
+        </tr>
+        <tr>
+            <!-- td*7 -->
+            <td>Friday/td>
+            <td>Eng</td>
+            <td>Mat</td>
+            <td>Che</td>
+            
+            <td colspan="3">Lab</td>
+            <td>Phy</td>
+        </tr>
+    </tbody>   
+   </table> 
+</body>
+</html>
